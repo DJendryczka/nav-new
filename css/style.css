@@ -1,2 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+header {
+  background: #f8f8f8;
+  text-align: center;
+}
+
+h1 {
+  color: #143774;
+  margin: 0;
+  font-family: 'Lora', serif;
+  color: #143774;
+  font-size: 2rem;
+}
+
+header p {
+  color: #1792d2;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #707070;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFNBQVM7RUFDVCxVQUFVO0FDQ1o7O0FEQ0E7RUFDRSxtQkFBbUI7RUFDbkIsa0JBQWtCO0FDRXBCOztBREFBO0VBQ0ksY0FBYztFQUNkLFNBQVM7RUFDVCwwQkFBMEI7RUFDekIsY0FBYztFQUNkLGVBQWU7QUNHcEI7O0FEREE7RUFDSSxjQUFjO0VBQ2QsU0FBUztFQUNULGlDQUFpQztFQUNqQyxpQkFBaUI7RUFDakIsa0JBQWtCO0FDSXRCOztBREZBO0VBQ0ksZ0JBQWdCO0VBQ2hCLFVBQVU7RUFDVixhQUFhO0VBQ2IsdUJBQXVCO0FDSzNCOztBREZBO0VBRUcsYUFBYTtBQ0loQjs7QURGQTtFQUNJLHFCQUFxQjtFQUNyQixjQUFjO0VBQ2QsaUNBQWlDO0VBQ2pDLGlCQUFpQjtFQUNqQixlQUFlO0FDS25CIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #f8f8f8;
+  text-align: center;
+}
+h1{
+    color: #143774;
+    margin: 0;
+    font-family: 'Lora', serif;
+     color: #143774;
+     font-size: 2rem;
+}
+header p{
+    color: #1792d2;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+   
+}
+nav li{
+    
+   margin: 0 1em;
+}
+nav a{
+    text-decoration: none;
+    color: #707070;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
