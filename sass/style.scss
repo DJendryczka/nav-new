@@ -1,39 +1,78 @@
 body {
   margin: 0;
-  padding: 0;
   font-family: 'Ubuntu', sans-serif;
 }
-header {
-  background: #f8f8f8;
-  padding: 2em;
+img {
+  max-width: 100%;
+  display: block;
 }
-.container {
-  width: 90%;
-  max-width: 900px;
-  margin: 0 auto;
-  border: 1px solid black;
+/* =================
+Typography
+================= */
+h1, h2, h3{
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  color: #143774;
 }
-.container-nav {
-  display: flex;
-  justify-content: space-between;
-}
+
 h1 {
   color: #143774;
   margin: 0;
-  font-family: 'Lora', serif;
-  color: #143774;
   font-size: 2rem;
 }
-img{
-    width: 100%;
+h2{
+  font-size: 1.5rem;
+}
+span{
+  font-weight: 700;
+}
+.article-link{
+  font-weight: 700;
+}
+article p{
+  font-weight: 300;
+}
+article a{
+  font-size: .875rem;
+  text-decoration: none;
+  color: #1792d2;
+}
+article a:hover,
+article a:focus{
+  color: #143774;
+  text-decoration: underline;
 }
 header p {
   color: #1792d2;
   margin: 0;
   font-weight: bold;
   font-size: 0.75rem;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
+
+/* =================
+Layout
+================= */
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  background: #f8f8f8;
+  padding: 2em;
+}
+main{
+  width: 75%;
+}
+aside{
+  width: 20%;
+}
+/* Navigation */
 nav ul {
   list-style: none;
   padding: 0;
@@ -54,37 +93,35 @@ nav a:hover,
 nav a:focus {
   color: #1792d2;
 }
-.current-page {
+.current-page{
   border-bottom: 1px solid #707070;
 }
-.current-page:hover {
+.current-page:hover{
   color: #707070;
 }
-.main-div{
-    max-width: 600px;
+
+footer {
+  text-align: center;
+  background-color: #143774;
+  color: #ffffff;
 }
-footer{
-    text-align: center;
-    background-color: #143774;
-    color: #FFFFFF;
-}
-footer p{
-    margin: 0;
+footer p {
+  margin: 0;
 }
 @media (max-width: 790px) {
-  .container-nav {
+  .container-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  header{
+  header {
     text-align: center;
   }
   nav ul {
     flex-direction: column;
     align-items: center;
   }
-  nav li{
+  nav li {
     margin: 1em 0;
   }
 }
