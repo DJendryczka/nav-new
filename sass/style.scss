@@ -86,6 +86,8 @@ header {
   }
   aside {
     width: 25%;
+    min-width: 200px;
+    margin-left: 1em;
   }
 }
 
@@ -181,4 +183,6 @@ footer p {
 
 .sidebar-widget{
   border: 20px solid #EBEBEB;
+  margin-bottom: 2em;
+  padding: 1em;
 }
