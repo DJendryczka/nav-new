@@ -51,6 +51,9 @@ article a {
   font-size: 0.875rem;
   text-decoration: none;
   color: #1792d2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 article a:hover,
 article a:focus {
@@ -65,7 +68,11 @@ header p {
   margin: 0;
   font-weight: bold;
   font-size: 0.75rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.13rem;
+  text-transform: uppercase;
+}
+header a{
+  text-transform: uppercase;
 }
 .widget-title,
 .widget-recent-post-title {
