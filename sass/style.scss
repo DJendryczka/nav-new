@@ -73,6 +73,7 @@ header p {
 }
 header a{
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .widget-title,
 .widget-recent-post-title {
@@ -153,7 +154,7 @@ nav a:focus {
 footer {
   text-align: center;
   background-color: #143774;
-  color: #ffffff;
+  color: rgba(255,255,255,.65);
   padding: 3em;
 }
 footer p {
